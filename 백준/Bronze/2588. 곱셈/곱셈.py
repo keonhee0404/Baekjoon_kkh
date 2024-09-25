@@ -1,0 +1,11 @@
+A=int(input())
+B=int(input())
+B_str=str(B)
+mul1=A*int(B_str[2])
+mul2=A*int(B_str[1])
+mul3=A*int(B_str[0])
+con=mul1+mul2*10+mul3*100
+print(mul1)
+print(mul2)
+print(mul3)
+print(con)
